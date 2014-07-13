@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="CustomDialogs.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CustomDialogs"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel HorizontalAlignment="Center">
+        <Button Content="Message Dialog (Default)" Click="Button_Click"/>
+        <Button Content="Info Dialog" Click="Button_Click_1"/>
+        <Button Content="Input Dialog" Click="Button_Click_2"/>
+    </StackPanel>
+</Page>
